@@ -1,9 +1,12 @@
 const ActionTypes = {
-  'DRAW_LINE': 'DRAW_LINE'
+  'ACTION1': 'ACTION1'
 };
 
-export function drawLine() {
+/**
+ * create action.
+ */
+export function action1() {
   return {
-    type: ActionTypes.DRAW_LINE
+    type: ActionTypes.ACTION1
   };
 }
